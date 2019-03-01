@@ -1,12 +1,11 @@
-# Razzle x After.js
+# Razzle x After.js x i18next
 
 ## How to use
 
-Download the example [or clone the whole project](https://github.com/jaredpalmer/razzle.git):
-
+Clone the repo:
 ```bash
-curl https://codeload.github.com/jaredpalmer/razzle/tar.gz/master | tar -xz --strip=2 razzle-master/examples/with-afterjs
-cd with-afterjs
+git clone https://github.com/twumm/myapp-razzle-afterjs-i18n.git
+cd myapp-razzle-afterjs-i18n
 ```
 
 Install it and run:
@@ -16,6 +15,6 @@ yarn install
 yarn start
 ```
 
-## Idea behind the example
+## Why
 
-This is a basic, bare-bones example of how to use After.js and Razzle.
+This is an example how how to use i18next with Razzle and Afterjs with slight modifications from what exists on the i18next razzle example.
