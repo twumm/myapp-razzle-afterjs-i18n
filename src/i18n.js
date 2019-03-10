@@ -25,6 +25,9 @@ const options = {
       return value;
     },
   },
+  react: {
+    wait: true,
+  },
   wait: process && !process.release,
 };
 
@@ -37,6 +40,6 @@ if (process && !process.release) {
 }
 
 // initialize if not already initialized
-if (i18n.isInitialized) i18n.init(options);
+if (!i18n.isInitialized) i18n.init(options);
 
 export default i18n;
